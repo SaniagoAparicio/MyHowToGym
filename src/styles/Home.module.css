@@ -9,16 +9,16 @@
 }
   
 .hovered {
-    fill: #667bfc;
+    fill: #61FF00;
     transition: fill 0.2s linear;
     cursor: pointer;
 } 
 
 .muscle {
-    fill: #ffffff;
+    fill: #666666;
 }
 
 .clickableMuscle {
-    fill: #c5cdff;
+    fill: #666666;
     transition: fill 0.2s linear;
 }

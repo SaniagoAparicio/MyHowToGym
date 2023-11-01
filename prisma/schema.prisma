@@ -26,7 +26,7 @@ model gruposMusculares {
 model ejercicios {
   id              String           @id @default(cuid())
   nombre          String?
-  url_video       String?
+  url_video       Bytes?
   equipamiento    String?
   descripcion     String?
   grupoMuscularId String
